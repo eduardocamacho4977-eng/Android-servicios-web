@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guía 7: Servicios Web en Android"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructor: Raúl Gómez | SENA ADSO"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Ejercicio 1 -->
+        <Button
+            android:id="@+id/btnEjercicio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Petición GET (Listar Usuarios)"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón Ejercicio 2 -->
+        <Button
+            android:id="@+id/btnEjercicio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Petición POST (Crear Usuario)"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón Ejercicio 3 -->
+        <Button
+            android:id="@+id/btnEjercicio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Diferencia entre PUT y PATCH"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón Ejercicio 4 -->
+        <Button
+            android:id="@+id/btnEjercicio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Petición DELETE (Eliminar Recurso)"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón Ejercicio 5 -->
+        <Button
+            android:id="@+id/btnEjercicio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. GET + Descarga Imagen Volley"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón Ejercicio 6 -->
+        <Button
+            android:id="@+id/btnEjercicio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Mini Galería RecyclerView + Intent"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón Ejercicio 7 -->
+        <Button
+            android:id="@+id/btnEjercicio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. CRUD Local (json-server)"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>
